@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item a{
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+}
+.nav-item a:hover {
+    color: #95eb00;
+}
+.bx-cart-alt {
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.bx-cart-alt:hover {
+    color: #95eb00;
+}
+.bx-user {
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.bx-user:hover {
+    color: #95eb00;
+}
+.main {
+    background: url(./img/background2.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.main h1 {
+    font-size: 100px;
+}
+.s1 {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.s1:hover {
+    background-color: #95eb00;
+    border: none;
+}
+.text-center a{
+    font-size: 24px;
+}

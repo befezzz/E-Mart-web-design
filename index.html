@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Mart | Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-light pb-2">
+        <div class="container">
+            <a class="navbar-brand h1 fw-bold text-success" href="#">E-Mart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class='bx bx-menu'></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Fruits</a></li>
+                            <li><a class="dropdown-item" href="#">Foods</a></li>
+                            <li><a class="dropdown-item" href="#">Drinks</a></li>
+                            <li><a class="dropdown-item" href="#">Vegetables</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success me-5" type="submit">Search</button>
+                    <span><i class='bx bx-cart-alt me-3'></i></span>
+                    <span><a href="signin.html"><i class='bx bx-user'></i></a></span>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main py-5 mt-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="py-5 mt-5 text-center">
+                    <p class="mt-5 fs-4">Organic Products</p>
+                    <h1 class="fw-bold mb-3">Always Fresh</h1>
+                    <div class="line"></div>
+                    <button class="btn btn-success mt-4 px-3">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about mt-5">
+        <div class="container-lg">
+            <h1 class="text-center">About E-Mart</h1>
+            <div class="row">
+                <div class="col-lg-5 py-5 px-5 me-5 mt-md-0">
+                    <img src="img/background4.jpg" alt="" width="400" height="400">
+                </div>
+                <div class="col-lg-5 py-5 mt-5 mt-md-0">
+                    <p class="text-muted mb-2">Organic Product</p>
+                    <h1 class="fw-bold mb-3">About Our Organic</h1>
+                    <div class="line my-4"></div>
+                    <p class="text-muted mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+                        officiis similique, iure a
+                        recusandae dicta totam porro ab illum voluptate cum, nulla soluta tempore, ea debitis
+                        praesentium! Vitae, hic. Assumenda.</p>
+
+                    <button class="btn btn-success">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service mb-3 mt-5">
+        <div class="container-fluid">
+            <img src="img/banner.svg" alt="">
+        </div>
+    </section>
+
+    <section class="product py-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Categories</h1>
+            <div class="line"></div>
+            <div class="button mb-5 mt-5 ">
+                <button class="btn btn-success px-5 fs-5 me-4 mt-md-0 mb-3">All</button>
+                <button class="btn btn-outline-secondary disabled text-muted px-5 fs-5 me-4 mt-md-0 mb-3">Fruits</button>
+                <button class="btn btn-outline-secondary disabled text-muted px-5 fs-5 me-4 mt-md-0 mb-3">Vegetables</button>
+                <button class="btn btn-outline-secondary disabled text-muted px-5 fs-5 me-4 mt-md-0 mb-3">Foods</button>
+                <button class="btn btn-outline-secondary disabled text-muted px-5 fs-5 me-4 mt-md-0 mb-3">Drinks</button>
+                <button class="btn btn-outline-secondary disabled text-muted px-5 fs-5 me-4 mt-md-0 mb-3">More</button>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/fruit/Layer 15.svg" class="card-img mt-5" alt="..." width="100px" height="100px">
+                        <div class="card-body text-center d-grid gap-2">
+                            <h5 class="card-title fw-bold">Strawberry</h5>
+                            <p class="card-text text-muted fs-5">$4.55</p>
+                            <button class="btn btn-success">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/fruit/Asset 2.svg" class="card-img mt-5" alt="..." width="100px" height="100px">
+                        <div class="card-body text-center d-grid gap-2">
+                            <h5 class="card-title fw-bold">Garlic</h5>
+                            <p class="card-text text-muted fs-5">$3.50</p>
+                                <button class="btn btn-success">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="img/food/Asset 11.svg" class="card-img mt-5" alt="..." width="100px" height="100px">
+                        <div class="card-body d-grid gap-2">
+                            <h5 class="card-title fw-bold">Dimsum</h5>
+                            <p class="card-text text-muted fs-5">$3.00</p>
+                                <button class="btn btn-success">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="img/fast food/Asset 5.svg" class="card-img mt-5" alt="..." width="100px" height="100px">
+                        <div class="card-body d-grid gap-2y">
+                            <h5 class="card-title fw-bold mt-3">Chicken</h5>
+                            <p class="card-text text-muted fs-5">$7.35</p>
+                                <button class="btn btn-success">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="img/fruit/Layer 25.svg" class="card-img mt-5" alt="..." width="100px" height="100px">
+                        <div class="card-body d-grid gap-2">
+                            <h5 class="card-title fw-bold">Watermelon</h5>
+                            <p class="card-text text-muted fs-5">$3.25</p>
+                                <button class="btn btn-success">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="img/fast food/Asset 3.svg" class="card-img mt-5" alt="..." width="100px" height="100px">
+                        <div class="card-body d-grid gap-2">
+                            <h5 class="card-title fw-bold">Soup</h5>
+                            <p class="card-text text-muted fs-5">$4.50</p>
+                                <button class="btn btn-success">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service mt-5 mb-5">
+        <div class="container">
+            <div class="row py-5 px-5 d-flex bg-success">
+                <h1 class="text-center mb-5 text-light">What You'll Get?</h1>
+                <div class="line my-4"></div>
+                <div class="col-lg-4 mt-md-0 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <span class="fs-1 text-center mt-3"><i class='bx bxs-credit-card'></i></span>
+                        <div class="card-body">
+                            <h5 class="text-center">Method Payment</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-md-0 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <span class="fs-1 text-center mt-3"><i class='bx bxs-truck'></i></span>
+                        <div class="card-body">
+                            <h5 class="text-center">Delivery</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-md-0 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <span class="fs-1 text-center mt-3"><i class='bx bxs-gift'></i></span>
+                        <div class="card-body">
+                            <h5 class="text-center">Gift</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer bg-light py-2 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 mt-2">
+                    <p class="text-success">Copyright 2023 &copy; E-mart | Online Shopping</p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="s1">
+                        <span><i class='bx bxs-envelope text-success'></i></span>
+                    </div>
+                    <div class="s1">
+                        <span><i class='bx bxl-instagram-alt text-success'></i></span>
+                    </div>
+                    <div class="s1">
+                        <span><i class='bx bxl-youtube text-success'></i></span>
+                    </div>
+                    <div class="s1">
+                        <span><i class='bx bxl-twitter text-success'></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
